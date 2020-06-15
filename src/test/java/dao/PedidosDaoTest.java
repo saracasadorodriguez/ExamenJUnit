@@ -24,7 +24,7 @@ import static org.junit.Assert.*;
 public class PedidosDaoTest {
     
         static PedidosDao pedidos;
-        static Pedido pedido = new Pedido(11111,111,11, new Date(2020-6-3), new Date(2020-6-19), new Date(1992-6-7),3 ,new BigDecimal(50.500),"destinatario","direccion","ciudad","region","28049","España");
+        static Pedido pedido = new Pedido(11111,111,11, new Date(2020-6-3), new Date(2020-6-19), new Date(1992-6-7),1 ,new BigDecimal(10.100),"destinatario","direccion","ciudad","region","28049","España");
         
         
     public PedidosDaoTest() {
